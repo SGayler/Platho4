@@ -1,0 +1,18 @@
+; Platho4.def : Deklariert die Modulparameter für die DLL.
+
+LIBRARY      "Platho4"
+
+EXPORTS
+dllSGDevelopment_PLATHO					@1500 ; Crop deveopment				- Sebastian Gayler (PLATHO)
+dllSGRootSystem_PLATHO					@1510 ; Root system 				- Sebastian Gayler (PLATHO)
+dllSGPhotosynthesis_PLATHO				@1520 ; Photosynthesis				- Sebastian Gayler (PLATHO)
+dllSGPotTransp_PLATHO					@1530 ; Potential Transpiration		- Sebastian Gayler (PLATHO)
+dllSGActTransp_PLATHO					@1540 ; Plant water uptake			- Sebastian Gayler (PLATHO)
+dllSGBiomassGrowth_PLATHO				@1550 ; Biomass growth				- Sebastian Gayler (PLATHO)
+dllSGCanopyForm_PLATHO					@1560 ; Canopy formation			- Sebastian Gayler (PLATHO)
+dllSGOrganSenesz_PLATHO					@1570 ; Plant senescence			- Sebastian Gayler (PLATHO)
+dllSGNitrogenDemand_PLATHO				@1580 ; Plant nitrogen demand		- Sebastian Gayler (PLATHO)
+dllSGNitrogenUptake_PLATHO				@1590 ; Plant nitrogen uptake		- Sebastian Gayler (PLATHO)
+
+
+dllSGOutput_PLATHO			@239 ; PLATHO output file
