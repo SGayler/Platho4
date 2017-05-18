@@ -100,7 +100,7 @@ int Photosynthesis_PLATHO(EXP_POINTER2,int iPlant,int it)
     double Calc_Cint(PFALGEPS pPs, double Wc,double Wj, double CO2_air, double vhumidity);
     double CalcLaminarConductivity(double TempAct, double vWind, PFALGEPS pFlgPS, PPLANT pPlant);
 
-	// Photosynthese nur wenn Blätter vorhanden
+	// Photosynthese nur wenn Blaetter vorhanden
     TREES
     {
         SPRUCE
